@@ -1,0 +1,64 @@
+  body {
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Lexend', sans-serif;
+    background-image: url(./images/banners/home_page.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    background-position: center;
+}
+
+#container {
+    position: fixed;
+    width: 65vw; /* Adjust the width as needed */
+    height: 65vh; /* Adjust the height as needed */
+    border-radius: 45px;
+    background: rgba(255, 255, 255, 0.2); /* Adjust the alpha (last value) for transparency */
+    backdrop-filter: blur(10px); /* Adjust the blur value as needed */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adjust shadow properties as needed */
+    top: 50%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#toast-image {
+    position: fixed;
+    width: 50%; /* Set a specific width for the container */
+    height: 50%; /* Set a specific height for the container */
+    object-fit: contain; /* Maintain the aspect ratio without squishing */
+    left: 0vw;
+    top: 16vh;
+}
+
+#toast-text {
+    font-size: 2.5vw;
+    position: fixed;
+    left: 7vw;
+    top: 36vh;
+    color: rgb(20, 20, 20);
+}
+
+#bar {
+    width: 3vw;
+    height: 30vh;
+    border-radius: 45px;
+    background: rgba(255, 255, 255, 0.2); /* Adjust the alpha (last value) for transparency */
+    backdrop-filter: blur(10px); /* Adjust the blur value as needed */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adjust shadow properties as needed */
+    position: fixed;
+    top: 50%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+}
+
+.bar-icons {
+    position: fixed;
+    font-size: 1.5vw;
+    left: 24%;
+    margin-top: 26%;
+    color: rgb(55,55,55);
+}
