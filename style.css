@@ -32,6 +32,7 @@
     object-fit: contain; 
     left: 0vw;
     top: 16vh;
+    border: 0.8% solid #ffffff;
 }
 
 #toast-text {
@@ -61,7 +62,8 @@ h1 {
 .icon {
     font-size: 4vw;
     color: rgba(0, 0, 0, 0.8); 
-    text-shadow: 3 4px 6px rgba(0, 0, 0, 0.1); 
+    text-shadow: 3 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 
 #user-icon {
