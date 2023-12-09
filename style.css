@@ -33,6 +33,12 @@
     left: 0vw;
     top: 16vh;
     border: 0.8% solid #ffffff;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+#toast-image.expanded {
+    transform: scale(1.2) rotate(-15deg); 
 }
 
 #toast-text {
