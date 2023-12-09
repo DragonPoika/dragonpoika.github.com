@@ -11,14 +11,14 @@
 
 #container {
     position: fixed;
-    width: 65vw; /* Adjust the width as needed */
-    height: 65vh; /* Adjust the height as needed */
+    width: 65vw; 
+    height: 65vh; 
     border-radius: 45px;
-    background: rgba(255, 255, 255, 0.2); /* Adjust the alpha (last value) for transparency */
-    backdrop-filter: blur(10px); /* Adjust the blur value as needed */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adjust shadow properties as needed */
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     top: 50%;
-    left: 53%;
+    left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
     justify-content: center;
@@ -27,9 +27,9 @@
 
 #toast-image {
     position: fixed;
-    width: 50%; /* Set a specific width for the container */
-    height: 50%; /* Set a specific height for the container */
-    object-fit: contain; /* Maintain the aspect ratio without squishing */
+    width: 50%; 
+    height: 50%; 
+    object-fit: contain; 
     left: 0vw;
     top: 16vh;
 }
@@ -42,23 +42,45 @@
     color: rgb(20, 20, 20);
 }
 
-#bar {
-    width: 3vw;
-    height: 30vh;
-    border-radius: 45px;
-    background: rgba(255, 255, 255, 0.2); /* Adjust the alpha (last value) for transparency */
-    backdrop-filter: blur(10px); /* Adjust the blur value as needed */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adjust shadow properties as needed */
+h1 {
     position: fixed;
-    top: 50%;
-    left: 18%;
-    transform: translate(-50%, -50%);
+    right: 15vw;
+    top: 13vh;
+    font-size: 1.3vw;
 }
 
-.bar-icons {
+#description {
     position: fixed;
-    font-size: 1.5vw;
-    left: 24%;
-    margin-top: 26%;
-    color: rgb(55,55,55);
+    top: 19vh;
+    right: 5vw;
+    font-size: 1.2vw;
+    word-break: break-word;
+    width: 50%;
+}
+
+.icon {
+    font-size: 4vw;
+    color: rgba(0, 0, 0, 0.8); 
+    text-shadow: 3 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+#user-icon {
+    position: fixed;
+    right: 38vw;
+    bottom: 17vw;
+    rotate: 10deg;
+}
+
+#cube-icon {
+    position: fixed;
+    right: 45vw;
+    bottom: 21vw;
+    rotate: -7deg;
+}
+
+#code-icon {
+    position: fixed;
+    right: 29vw;
+    bottom: 18.5vw;
+    rotate: -1deg;
 }
