@@ -92,3 +92,89 @@ h1 {
     bottom: 18.5vw;
     rotate: -1deg;
 }
+
+@media only screen and (max-width: 800px) {
+    #user-icon {
+        position: fixed;
+        right: 38vw;
+        bottom: 39vw;
+        rotate: 10deg;
+    }
+    
+    #cube-icon {
+        position: fixed;
+        right: 45vw;
+        bottom: 44vw;
+        rotate: -7deg;
+    }
+    
+    #code-icon {
+        position: fixed;
+        right: 29vw;
+        bottom: 41.5vw;
+        rotate: -1deg;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #toast-image {
+        position: fixed;
+        width: 50%; 
+        height: 50%; 
+        object-fit: contain; 
+        left: 0vw;
+        top: -4vh;
+        border: 0.8% solid #ffffff;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    #toast-text {
+        font-size: 4vw;
+        position: fixed;
+        left: 27vw;
+        top: 11vh;
+        color: rgb(20, 20, 20);
+    }
+
+    h1 {
+        position: fixed;
+        right: 17vw;
+        top: 26vh;
+        font-size: 3vw;
+    }
+    
+    #description {
+        position: fixed;
+        top: 30vh;
+        right: 6vw;
+        font-size: 2.5vw;
+        word-break: break-word;
+        width: 80%;
+    }
+
+    .icon {
+        font-size: 8vw;
+    }
+    
+    #cube-icon {
+        position: fixed;
+        left: 25vw;
+        bottom: 51vw;
+        rotate: -7deg;
+    }
+    
+    #user-icon {
+        position: fixed;
+        left: 47vw;
+        bottom: 49vw;
+        rotate: 10deg;
+    }
+    
+    #code-icon {
+        position: fixed;
+        left: 64vw;
+        bottom: 51.5vw;
+        rotate: -1deg;
+    }
+}
