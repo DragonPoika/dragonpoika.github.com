@@ -111,6 +111,28 @@ h1 {
     rotate: -1deg;
 }
 
+#shadowforms {
+    position: fixed;
+    left: 100vw;
+    top: 20vh;
+}
+
+.datapack-image {
+    border-radius: 45px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    width: 15vw;
+    height: auto;
+}
+
+#datapacks-text {
+    font-size: 2.5vw;
+    position: fixed;
+    left: 5vw;
+    top: 3vh;
+    color: rgb(20, 20, 20);
+    z-index: 2;
+}
+
 @media only screen and (max-width: 800px) {
     #user-icon {
         position: fixed;
