@@ -9,6 +9,15 @@
     background-position: center;
 }
 
+#home-button {
+    position: fixed;
+    left: 1vw;
+    top: 1vw;
+    color: rgb(255, 255, 255, 0.8);
+    font-size: 1vw;
+    cursor:pointer;
+}
+
 #container {
     position: fixed;
     width: 65vw; 
@@ -33,12 +42,7 @@
     left: 0vw;
     top: 16vh;
     border: 0.8% solid #ffffff;
-    cursor: pointer;
     transition: transform 0.3s ease-in-out;
-}
-
-#toast-image.expanded {
-    transform: scale(1.2) rotate(-15deg); 
 }
 
 #toast-text {
@@ -47,6 +51,20 @@
     left: 7vw;
     top: 36vh;
     color: rgb(20, 20, 20);
+}
+
+#contact-me {
+    font-size: 2.5vw;
+    position: fixed;
+    left: 9vw;
+    top: 36vh;
+    color: rgb(20, 20, 20);
+}
+
+#contacts {
+    position: fixed;
+    font-size: 1.8vw;
+    right: 10vw;
 }
 
 h1 {
@@ -116,6 +134,10 @@ h1 {
     }
 }
 
+/* 
+SMALLER SCREEN WIDTH
+*/
+
 @media only screen and (max-width: 700px) {
     #toast-image {
         position: fixed;
@@ -125,7 +147,6 @@ h1 {
         left: 0vw;
         top: -4vh;
         border: 0.8% solid #ffffff;
-        cursor: pointer;
         transition: transform 0.3s ease-in-out;
     }
 
@@ -133,6 +154,22 @@ h1 {
         font-size: 4vw;
         position: fixed;
         left: 27vw;
+        top: 11vh;
+        color: rgb(20, 20, 20);
+    }
+
+    #contact-me {
+        font-size: 4vw;
+        position: fixed;
+        left: 27vw;
+        top: 9vh;
+        color: rgb(20, 20, 20);
+    }
+
+    #toast-text {
+        font-size: 4vw;
+        position: fixed;
+        left: 29vw;
         top: 11vh;
         color: rgb(20, 20, 20);
     }
@@ -149,6 +186,15 @@ h1 {
         top: 30vh;
         right: 6vw;
         font-size: 2.5vw;
+        word-break: break-word;
+        width: 80%;
+    }
+
+    #contacts {
+        position: fixed;
+        top: 30vh;
+        right: 6vw;
+        font-size: 4vw;
         word-break: break-word;
         width: 80%;
     }
