@@ -2,7 +2,7 @@
     margin: 0;
     overflow: hidden;
     font-family: 'Lexend', sans-serif;
-    background-image: url(./images/banners/home_page.jpg);
+    background: linear-gradient(66deg, rgba(60,29,57,1) 0%, rgba(251,189,200,1) 47%, rgba(137,42,61,1) 91%, rgba(149,43,64,1) 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
