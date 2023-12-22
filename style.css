@@ -18,6 +18,10 @@
     cursor:pointer;
 }
 
+#home-button:hover {
+    text-decoration: underline;
+}
+
 #container {
     position: fixed;
     width: 65vw; 
