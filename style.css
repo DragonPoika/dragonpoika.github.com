@@ -2,7 +2,7 @@
     margin: 0;
     overflow: hidden;
     font-family: 'Lexend', sans-serif;
-    background: linear-gradient(66deg, rgba(60,29,57,1) 0%, rgba(251,189,200,1) 47%, rgba(137,42,61,1) 91%, rgba(149,43,64,1) 100%);
+    background: linear-gradient(66deg, rgb(29, 40, 60) 0%, rgb(110, 208, 152) 47%, rgb(64, 137, 42) 91%, rgb(48, 91, 42) 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
@@ -46,7 +46,20 @@
     left: 0vw;
     top: 16vh;
     border: 0.8% solid #ffffff;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, rotate 0.3s ease-in-out;
+    rotate: 0deg;
+
+    -webkit-user-drag: none;
+	user-drag: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#toast-image.expanded {
+    transform: scale(1.2); /* Increase the scale when expanded */
+    rotate: 10deg;
 }
 
 #toast-text {
