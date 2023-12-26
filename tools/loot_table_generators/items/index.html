@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://dragonpoika.github.io/images/favicon.png">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lexend">
+    <script src="https://kit.fontawesome.com/62f8476fe7.js" crossorigin="anonymous"></script>
+    <title>Item Loot Table Preset - ToastedDragon</title>
+</head>
+<body>
+    <h1>Item Generator</h1>
+
+    <div id="home-button" onclick="location.href='https://dragonpoika.github.io/';">
+        <i class="fa-solid fa-house"></i>
+        Home
+    </div>
+
+    <label for="namespace">Namespace:</label>
+    <input type="text" id="namespace" placeholder="custom">
+
+    <label for="baseItemId">Base Item ID:</label>
+    <input type="text" id="baseItemId" placeholder="warped_fungus_on_a_stick">
+
+    <label for="customItemId">Custom Item ID:</label>
+    <input type="text" id="customItemId" placeholder="magic_wand">
+
+    <label for="customModelData">Custom Model Data:</label>
+    <input type="text" id="customModelData" placeholder="123000">
+
+    <label for="packColor">Pack Color:</label>
+    <input type="text" id="packColor" placeholder="purple">
+
+    <label for="translationFallback">Translation Fallback:</label>
+    <input type="text" id="translationFallback" placeholder="Magic Wand">
+
+    <label for="viewText">View Text:</label>
+    <textarea id="viewText" rows="10" readonly></textarea>
+    
+        <button onclick="generateAndCopy()">Generate & Copy</button>
+        <button onclick="downloadText()">Download</button>
+
+    <div><p id="description">Hi! This is a little tool I made in my free time with help from ChatGPT.<br>
+        If you want to discuss it, join my discord server: https://dragonpoika.github.io/discord<br><br>
+        Here's some extra info for you on the tool:<br>
+        Field meanings:<br>
+        <b>Namespace:</b><br>
+            The pack's namespace. You should always use one if you're adding custom content!<br>
+        <b>Base Item ID:</b><br>
+            Whatever item you use as the base item. Vanilla items!<br>
+        <b>Custom Model Data:</b><br>
+            Quite self-explanatory. Item's Custom Model Data.<br>
+        <b>Custom Item ID:</b><br>
+            Your custom item's ID. Used in the translation string, what tag is given to the item, and the downloaded file's name.<br>
+        <b>Pack Color:</b><br>
+            The color of the pack. Used in the lore of the item.<br>
+        <b>Translation Fallback:</b><br>
+            The translation fallback. The translation string is automatically generated with 'item.namespace.customitemid'<br><br>
+        Note: This website assumes you have a custom icon on your pack tooltip with the font name "namespace:tooltip". Maybe someday that can be disabled. <br>But for now, just remove the "set_lore" function's first two json strings!
+        </p></div>
+    <script src="script.js"></script>
+</body>
+</html>

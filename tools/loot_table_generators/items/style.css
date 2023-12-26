@@ -1,0 +1,64 @@
+body {
+    font-family: Lexend, sans-serif;
+    margin: 20px;
+    background-color: rgb(45, 45, 81);
+}
+
+#home-button {
+    left: 1vw;
+    top: 1vw;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 3vh;
+    cursor:pointer;
+    margin-top: -4%;
+    margin-bottom: 3%;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+input {
+    margin-bottom: 10px;
+    width: 40%;
+    box-sizing: border-box;
+}
+
+textarea {
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+p {
+    color: white;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+#description {
+    background-color: lightskyblue;
+    color: rgb(13, 13, 28);
+    width: 98%;
+    margin-left: -2%;
+    margin-top: 5%;
+    margin-bottom: -5%;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 4%;
+}
