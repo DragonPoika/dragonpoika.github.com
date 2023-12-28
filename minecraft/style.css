@@ -1,0 +1,89 @@
+body {
+    font-family: Lexend, sans-serif;
+    background: linear-gradient(66deg, rgb(29, 40, 60) 0%, rgb(110, 208, 152) 47%, rgb(64, 137, 42) 91%, rgb(48, 91, 42) 100%);
+}
+
+#home-button {
+    position: fixed;
+    left: 1vw;
+    top: 1vw;
+    color: rgb(0, 0, 0);
+    font-size: 1vw;
+    cursor:pointer;
+}
+
+#home-button:hover {
+    text-decoration: underline;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.datapack-container {
+    display: flex;
+    align-items: center;
+    width: 80vw;
+    height: 45vw;
+    border-radius: 4vw;
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    margin: 0 auto;
+    margin-bottom: 5vw;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.datapack {
+    width: 35vw;
+    height: 35vw;
+    border-radius: 2vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 5vw;
+}
+
+.datapack-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto; 
+    padding-right: 5vw;
+}
+
+.datapack-name {
+    font-size: 4vw;
+    color: rgb(0, 0, 0);
+}
+
+.datapack-desc {
+    font-size: 1.5vw;
+    color: rgb(0, 0, 0);
+    line-break: auto;
+    width: 15vw;
+}
+
+a:link, a:visited {
+   text-decoration:none;
+}
+
+#shadowforms {
+    background-image: url("https://github.com/DragonPoika/Shadowforms/blob/main/shadowforms-datapack/pack.png?raw=true");
+}
+
+#hideintallgrass {
+    background-image: url("https://github.com/DragonPoika/HideInTallGrass/blob/main/pack.png?raw=true");
+}
+
+#pillagerpirates {
+    background-image: url("https://github.com/DragonPoika/PillagerPirates/blob/main/datapack/pack.png?raw=true");
+}
+
+#mailboxes {
+    background-image: url("https://github.com/DragonPoika/Mailboxes/blob/main/mailboxes-datapack/pack.png?raw=true");
+}
