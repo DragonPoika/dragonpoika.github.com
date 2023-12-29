@@ -46,7 +46,7 @@ function generateAndCopy() {
                             },
                             {
                                 "function": "minecraft:set_nbt",
-                                "tag": "{" + namespace + ":[{id:\"" + customItemId + "\"},CustomModelData:" + customModelData + "]}"
+                                "tag": "{" + namespace + ":[{id:\"" + customItemId + "\"}],CustomModelData:" + customModelData + "}"
                             }
                         ]
                     }
